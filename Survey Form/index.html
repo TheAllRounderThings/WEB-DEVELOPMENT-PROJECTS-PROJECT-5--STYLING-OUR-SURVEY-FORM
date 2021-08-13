@@ -1,0 +1,57 @@
+<!-- Creating a survey form -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 2</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h2>Survey Form</h2>
+    <form action="#">
+        <label for="name">
+            <p>Name: <input type="text" name="n" id="name"></p>
+        </label>
+        <label for="email">
+            <p>Email: <input type="email" name="e" id="email"></p>
+        </label>
+        <label for="number">
+            <p>Contact Number: <input type="number" name="c" id="number"></p>
+        </label>
+        <p>Select Gender:
+            <input type="radio" name="g" id="male"> Male
+            <input type="radio" name="g" id="female"> Female
+        </p>
+        <label for="dob">
+            <p>Enter your date of birth: <input type="date" name="d" id="dob"></p>
+        </label>
+        <label for="city">
+            <p>Enter your city: <input type="text" name="c" id="city"></p>
+        </label>
+        <label for="pincode">
+            <p>Enter your pincode: <input type="number" name="pc" id="pincode"></p>
+        </label>
+        <p>Select the sports that you enjoy the most: 
+            <input type="checkbox" name="s" id="cricket"> Cricket
+            <input type="checkbox" name="s" id="football"> Football
+            <input type="checkbox" name="s" id="badminton"> Badminton
+            <input type="checkbox" name="s" id="kabaddi"> Kabaddi
+            <input type="checkbox" name="s" id="other">Other
+        </p>
+        <p>Select the thing that you enjoy doing the most
+            <select name="sel" id="sel">
+                <option value="">--Select from below--</option>
+                <option value="artandcraft">Art and Crafts</option>
+                <option value="reading">Reading</option>
+                <option value="tech">Technology</option>
+                <option value="sports">Sports</option>
+                <option value="music">Music</option>
+            </select>
+        </p>
+        <input type="submit" value="SUBMIT">
+        <input type="reset" value="RESET">
+    </form>
+</body>
+</html>
